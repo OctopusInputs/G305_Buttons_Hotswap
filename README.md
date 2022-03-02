@@ -3,4 +3,4 @@
 
 Requires: 
 Mill-Max 7305 sockets
-JST PH 4pin Male Connector
+JST SH 4pin Male Connector
