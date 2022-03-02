@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>K:\Making\Projects\Mouse\305_buttons\305_buttons\Left\305_Left_Hotswap_JST\Left_Hotswap_JST\Left_Hotswap_JST.kicad_sch</source>
+    <date>26/12/2021 20:03:52</date>
+    <tool>Eeschema (6.0.0-rc1-160-g99ec2b1801)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Left_Hotswap_JST.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Millmax 7305</value>
+      <footprint>eec:Mill-Max-7305-0-15-15-47-27-10-0-MFG</footprint>
+      <datasheet>https://www.mill-max.com/products/datasheet/pinsrecs/7305-0-15-15-47-27-10-0</datasheet>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="category">Conn</field>
+        <field name="contact material">Gold,Nickel</field>
+        <field name="current rating">4.5A</field>
+        <field name="device class L1">Connectors</field>
+        <field name="device class L2">Terminal Blocks | Terminals</field>
+        <field name="device class L3">unset</field>
+        <field name="digikey description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="digikey part number">ED1039-ND</field>
+        <field name="footprint url">https://www.mill-max.com/catalog/download/2018-05:179M.pdf</field>
+        <field name="is connector">yes</field>
+        <field name="is female">yes</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">d85eee583a73396a</field>
+        <field name="manufacturer">Mill-Max</field>
+        <field name="mouser description">Circuit Board Hardware - PCB SOLDER MT RECEPTACLE THRU HOLE&#xD;\n</field>
+        <field name="mouser part number">575-7305015154727100</field>
+        <field name="number of contacts">1</field>
+        <field name="package">CONN_PIN_RCPT</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+125°C</field>
+        <field name="temperature range low">-55°C</field>
+      </fields>
+      <libsource lib="eec" part="7305-0-15-15-47-27-10-0" description="7305-0-15-15-47-27-10-0"/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Conn"/>
+      <property name="contact material" value="Gold,Nickel"/>
+      <property name="current rating" value="4.5A"/>
+      <property name="device class L1" value="Connectors"/>
+      <property name="device class L2" value="Terminal Blocks | Terminals"/>
+      <property name="device class L3" value="unset"/>
+      <property name="digikey description" value="CONN PIN RCPT .025-.037 SOLDER"/>
+      <property name="digikey part number" value="ED1039-ND"/>
+      <property name="footprint url" value="https://www.mill-max.com/catalog/download/2018-05:179M.pdf"/>
+      <property name="is connector" value="yes"/>
+      <property name="is female" value="yes"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="d85eee583a73396a"/>
+      <property name="manufacturer" value="Mill-Max"/>
+      <property name="mouser description" value="Circuit Board Hardware - PCB SOLDER MT RECEPTACLE THRU HOLE&#xD;\n"/>
+      <property name="mouser part number" value="575-7305015154727100"/>
+      <property name="number of contacts" value="1"/>
+      <property name="package" value="CONN_PIN_RCPT"/>
+      <property name="rohs" value="Yes"/>
+      <property name="temperature range high" value="+125°C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Left_Hotswap_JST.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>269b46ae-8653-428f-a2c6-c787478ae3ef</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Millmax 7305</value>
+      <footprint>eec:Mill-Max-7305-0-15-15-47-27-10-0-MFG</footprint>
+      <datasheet>https://www.mill-max.com/products/datasheet/pinsrecs/7305-0-15-15-47-27-10-0</datasheet>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="category">Conn</field>
+        <field name="contact material">Gold,Nickel</field>
+        <field name="current rating">4.5A</field>
+        <field name="device class L1">Connectors</field>
+        <field name="device class L2">Terminal Blocks | Terminals</field>
+        <field name="device class L3">unset</field>
+        <field name="digikey description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="digikey part number">ED1039-ND</field>
+        <field name="footprint url">https://www.mill-max.com/catalog/download/2018-05:179M.pdf</field>
+        <field name="is connector">yes</field>
+        <field name="is female">yes</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">d85eee583a73396a</field>
+        <field name="manufacturer">Mill-Max</field>
+        <field name="mouser description">Circuit Board Hardware - PCB SOLDER MT RECEPTACLE THRU HOLE&#xD;\n</field>
+        <field name="mouser part number">575-7305015154727100</field>
+        <field name="number of contacts">1</field>
+        <field name="package">CONN_PIN_RCPT</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+125°C</field>
+        <field name="temperature range low">-55°C</field>
+      </fields>
+      <libsource lib="eec" part="7305-0-15-15-47-27-10-0" description="7305-0-15-15-47-27-10-0"/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Conn"/>
+      <property name="contact material" value="Gold,Nickel"/>
+      <property name="current rating" value="4.5A"/>
+      <property name="device class L1" value="Connectors"/>
+      <property name="device class L2" value="Terminal Blocks | Terminals"/>
+      <property name="device class L3" value="unset"/>
+      <property name="digikey description" value="CONN PIN RCPT .025-.037 SOLDER"/>
+      <property name="digikey part number" value="ED1039-ND"/>
+      <property name="footprint url" value="https://www.mill-max.com/catalog/download/2018-05:179M.pdf"/>
+      <property name="is connector" value="yes"/>
+      <property name="is female" value="yes"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="d85eee583a73396a"/>
+      <property name="manufacturer" value="Mill-Max"/>
+      <property name="mouser description" value="Circuit Board Hardware - PCB SOLDER MT RECEPTACLE THRU HOLE&#xD;\n"/>
+      <property name="mouser part number" value="575-7305015154727100"/>
+      <property name="number of contacts" value="1"/>
+      <property name="package" value="CONN_PIN_RCPT"/>
+      <property name="rohs" value="Yes"/>
+      <property name="temperature range high" value="+125°C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Left_Hotswap_JST.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>011bd841-b24f-4c72-8ac8-f2cdb6b6cf4b</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Millmax 7305</value>
+      <footprint>eec:Mill-Max-7305-0-15-15-47-27-10-0-MFG</footprint>
+      <datasheet>https://www.mill-max.com/products/datasheet/pinsrecs/7305-0-15-15-47-27-10-0</datasheet>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="category">Conn</field>
+        <field name="contact material">Gold,Nickel</field>
+        <field name="current rating">4.5A</field>
+        <field name="device class L1">Connectors</field>
+        <field name="device class L2">Terminal Blocks | Terminals</field>
+        <field name="device class L3">unset</field>
+        <field name="digikey description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="digikey part number">ED1039-ND</field>
+        <field name="footprint url">https://www.mill-max.com/catalog/download/2018-05:179M.pdf</field>
+        <field name="is connector">yes</field>
+        <field name="is female">yes</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">d85eee583a73396a</field>
+        <field name="manufacturer">Mill-Max</field>
+        <field name="mouser description">Circuit Board Hardware - PCB SOLDER MT RECEPTACLE THRU HOLE&#xD;\n</field>
+        <field name="mouser part number">575-7305015154727100</field>
+        <field name="number of contacts">1</field>
+        <field name="package">CONN_PIN_RCPT</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+125°C</field>
+        <field name="temperature range low">-55°C</field>
+      </fields>
+      <libsource lib="eec" part="7305-0-15-15-47-27-10-0" description="7305-0-15-15-47-27-10-0"/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Conn"/>
+      <property name="contact material" value="Gold,Nickel"/>
+      <property name="current rating" value="4.5A"/>
+      <property name="device class L1" value="Connectors"/>
+      <property name="device class L2" value="Terminal Blocks | Terminals"/>
+      <property name="device class L3" value="unset"/>
+      <property name="digikey description" value="CONN PIN RCPT .025-.037 SOLDER"/>
+      <property name="digikey part number" value="ED1039-ND"/>
+      <property name="footprint url" value="https://www.mill-max.com/catalog/download/2018-05:179M.pdf"/>
+      <property name="is connector" value="yes"/>
+      <property name="is female" value="yes"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="d85eee583a73396a"/>
+      <property name="manufacturer" value="Mill-Max"/>
+      <property name="mouser description" value="Circuit Board Hardware - PCB SOLDER MT RECEPTACLE THRU HOLE&#xD;\n"/>
+      <property name="mouser part number" value="575-7305015154727100"/>
+      <property name="number of contacts" value="1"/>
+      <property name="package" value="CONN_PIN_RCPT"/>
+      <property name="rohs" value="Yes"/>
+      <property name="temperature range high" value="+125°C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Left_Hotswap_JST.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf868ea8-9e82-4417-9f0c-f4c0d575642d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Left_Hotswap_JST.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e86529f-6803-47b1-b079-753ffb98cda0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eec" part="7305-0-15-15-47-27-10-0">
+      <description>7305-0-15-15-47-27-10-0</description>
+      <docs>https://www.mill-max.com/products/datasheet/pinsrecs/7305-0-15-15-47-27-10-0</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">7305-0-15-15-47-27-10-0</field>
+        <field name="Footprint">Mill-Max-7305-0-15-15-47-27-10-0-*</field>
+        <field name="Datasheet">https://www.mill-max.com/products/datasheet/pinsrecs/7305-0-15-15-47-27-10-0</field>
+        <field name="automotive">No</field>
+        <field name="category">Conn</field>
+        <field name="contact material">Gold,Nickel</field>
+        <field name="current rating">4.5A</field>
+        <field name="device class L1">Connectors</field>
+        <field name="device class L2">Terminal Blocks | Terminals</field>
+        <field name="device class L3">unset</field>
+        <field name="digikey description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="digikey part number">ED1039-ND</field>
+        <field name="footprint url">https://www.mill-max.com/catalog/download/2018-05:179M.pdf</field>
+        <field name="is connector">yes</field>
+        <field name="is female">yes</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">d85eee583a73396a</field>
+        <field name="manufacturer">Mill-Max</field>
+        <field name="mouser description">Circuit Board Hardware - PCB SOLDER MT RECEPTACLE THRU HOLE&#xD;\n</field>
+        <field name="mouser part number">575-7305015154727100</field>
+        <field name="number of contacts">1</field>
+        <field name="package">CONN_PIN_RCPT</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+125°C</field>
+        <field name="temperature range low">-55°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="eec">
+      <uri>K:/Making/Resources/Libs/Conn_Mill-Max_7305-0-15-15-47-27-10-0/eec.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="NO">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

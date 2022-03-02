@@ -1,0 +1,100 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 133Library:MouseSwitch SW1
+U 1 1 61ABF748
+P 3900 1350
+F 0 "SW1" H 4178 1251 50  0000 L CNN
+F 1 "Forward" H 4178 1160 50  0000 L CNN
+F 2 "133Library:MouseSwitch" H 3950 1000 50  0001 C CNN
+F 3 "" H 3750 1500 50  0001 C CNN
+	1    3900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61AC3A61
+P 3300 1400
+F 0 "#PWR0101" H 3300 1150 50  0001 C CNN
+F 1 "GND" H 3305 1227 50  0000 C CNN
+F 2 "" H 3300 1400 50  0001 C CNN
+F 3 "" H 3300 1400 50  0001 C CNN
+	1    3300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61AC487F
+P 3450 2000
+F 0 "#PWR0102" H 3450 1750 50  0001 C CNN
+F 1 "GND" H 3455 1827 50  0000 C CNN
+F 2 "" H 3450 2000 50  0001 C CNN
+F 3 "" H 3450 2000 50  0001 C CNN
+	1    3450 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3750 2100 0    50   Input ~ 0
+Back
+Wire Wire Line
+	3450 2000 3750 2000
+Text GLabel 3700 1500 0    50   Input ~ 0
+Forward
+Wire Wire Line
+	3300 1400 3700 1400
+$Comp
+L 133Library:MouseSwitch SW2
+U 1 1 61AC2583
+P 3950 1950
+F 0 "SW2" H 4228 1851 50  0000 L CNN
+F 1 "Back" H 4228 1760 50  0000 L CNN
+F 2 "133Library:MouseSwitch" H 4000 1600 50  0001 C CNN
+F 3 "" H 3800 2100 50  0001 C CNN
+	1    3950 1950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 2200
+NoConn ~ 3700 1600
+$Comp
+L 133Library:3holes U?
+U 1 1 61AD1012
+P 2350 1500
+F 0 "U?" H 2628 1351 50  0000 L CNN
+F 1 "3holes" H 2628 1260 50  0000 L CNN
+F 2 "" H 2350 1500 50  0001 C CNN
+F 3 "" H 2350 1500 50  0001 C CNN
+	1    2350 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2350 1800 0    50   Input ~ 0
+Forward
+Text GLabel 2350 1700 0    50   Input ~ 0
+Back
+$Comp
+L power:GND #PWR?
+U 1 1 61AD23BB
+P 2100 1400
+F 0 "#PWR?" H 2100 1150 50  0001 C CNN
+F 1 "GND" H 2105 1227 50  0000 C CNN
+F 2 "" H 2100 1400 50  0001 C CNN
+F 3 "" H 2100 1400 50  0001 C CNN
+	1    2100 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1400 2350 1400
+Wire Wire Line
+	2350 1400 2350 1600
+$EndSCHEMATC

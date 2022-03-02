@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 133Library_3holes
+#
+DEF 133Library_3holes U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "133Library_3holes" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 -500 250 0 0 1 0 N
+X 1 1 0 -100 100 R 50 50 0 1 I
+X 2 2 0 -250 100 R 50 50 0 1 I
+X 3 3 0 -400 100 R 50 50 0 1 I
+ENDDRAW
+ENDDEF
+#
+# 133Library_MouseSwitch
+#
+DEF 133Library_MouseSwitch SW 0 40 Y Y 1 F N
+F0 "SW" 0 150 50 H V C CNN
+F1 "133Library_MouseSwitch" 0 50 50 H V C CNN
+F2 "133Library:MouseSwitch" 50 -350 50 H I C CNN
+F3 "" -150 150 50 H I C CNN
+DRAW
+S -100 0 250 -300 0 1 0 N
+X COM 1 -200 -50 100 R 50 50 1 1 I
+X NO 2 -200 -150 100 R 50 50 1 1 I
+X Dummy 3 -200 -250 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
